@@ -7,12 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		399FE837234D12B3003907B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399FE836234D12B3003907B9 /* AppDelegate.swift */; };
-		399FE839234D12B3003907B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399FE838234D12B3003907B9 /* ContentView.swift */; };
-		399FE83B234D12B5003907B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399FE83A234D12B5003907B9 /* Assets.xcassets */; };
-		399FE83E234D12B5003907B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399FE83D234D12B5003907B9 /* Preview Assets.xcassets */; };
+		3912BE1724ACD10100ED1ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DD5F8F24ACC6FE0048ABF0 /* Assets.xcassets */; };
+		398BCF0024B322E400A52C83 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCEFF24B322E400A52C83 /* ImageDetailView.swift */; };
+		398BCF0124B322E400A52C83 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCEFF24B322E400A52C83 /* ImageDetailView.swift */; };
+		398BCF0224B322E400A52C83 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCEFF24B322E400A52C83 /* ImageDetailView.swift */; };
+		398BCF0824B3334A00A52C83 /* ownCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399FE861234D133E003907B9 /* ownCloudSDK.framework */; };
+		398BCF0924B3334E00A52C83 /* ownCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399FE861234D133E003907B9 /* ownCloudSDK.framework */; };
+		398BCF0B24B34AF800A52C83 /* AccountSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCF0A24B34AF700A52C83 /* AccountSettings.swift */; };
+		398BCF0C24B34AF800A52C83 /* AccountSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCF0A24B34AF700A52C83 /* AccountSettings.swift */; };
+		398BCF0D24B34AF800A52C83 /* AccountSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCF0A24B34AF700A52C83 /* AccountSettings.swift */; };
+		398BCF0F24B34C9600A52C83 /* MediaGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCF0E24B34C9600A52C83 /* MediaGridView.swift */; };
+		398BCF1024B34C9600A52C83 /* MediaGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCF0E24B34C9600A52C83 /* MediaGridView.swift */; };
+		398BCF1124B34C9600A52C83 /* MediaGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCF0E24B34C9600A52C83 /* MediaGridView.swift */; };
+		398BCF1324B34CFC00A52C83 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCF1224B34CFC00A52C83 /* AccountView.swift */; };
+		398BCF1424B34CFC00A52C83 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCF1224B34CFC00A52C83 /* AccountView.swift */; };
+		398BCF1524B34CFC00A52C83 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCF1224B34CFC00A52C83 /* AccountView.swift */; };
 		399FE841234D12B5003907B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399FE83F234D12B5003907B9 /* LaunchScreen.storyboard */; };
 		399FE84C234D12B5003907B9 /* ownCloud_MediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399FE84B234D12B5003907B9 /* ownCloud_MediaUITests.swift */; };
+		399FE870234D1482003907B9 /* ownCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399FE861234D133E003907B9 /* ownCloudSDK.framework */; };
+		399FE871234D1482003907B9 /* ownCloudSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 399FE861234D133E003907B9 /* ownCloudSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		39DD5FA824ACC6FF0048ABF0 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DD5FA724ACC6FF0048ABF0 /* Tests_iOS.swift */; };
+		39DD5FB324ACC6FF0048ABF0 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DD5FB224ACC6FF0048ABF0 /* Tests_macOS.swift */; };
+		39DD5FB524ACC6FF0048ABF0 /* ownCloud_Media_UniversalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DD5F8D24ACC6FD0048ABF0 /* ownCloud_Media_UniversalApp.swift */; };
+		39DD5FB624ACC6FF0048ABF0 /* ownCloud_Media_UniversalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DD5F8D24ACC6FD0048ABF0 /* ownCloud_Media_UniversalApp.swift */; };
+		39DD5FB724ACC6FF0048ABF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DD5F8E24ACC6FD0048ABF0 /* ContentView.swift */; };
+		39DD5FB824ACC6FF0048ABF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DD5F8E24ACC6FD0048ABF0 /* ContentView.swift */; };
+		39DD5FB924ACC6FF0048ABF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DD5F8F24ACC6FE0048ABF0 /* Assets.xcassets */; };
+		39DD5FBA24ACC6FF0048ABF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DD5F8F24ACC6FE0048ABF0 /* Assets.xcassets */; };
+		39DD5FC724ACC82D0048ABF0 /* ownCloud_Media_UniversalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DD5F8D24ACC6FD0048ABF0 /* ownCloud_Media_UniversalApp.swift */; };
+		39DD5FC824ACC82D0048ABF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DD5F8E24ACC6FD0048ABF0 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +46,114 @@
 			remoteGlobalIDString = 399FE832234D12B3003907B9;
 			remoteInfo = "ownCloud Media";
 		};
+		399FE860234D133E003907B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399FE856234D133E003907B9 /* ownCloudSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCC8F9AB202852A200EB6701;
+			remoteInfo = ownCloudSDK;
+		};
+		399FE862234D133E003907B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399FE856234D133E003907B9 /* ownCloudSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCC8F9B4202852A200EB6701;
+			remoteInfo = ownCloudSDKTests;
+		};
+		399FE864234D133E003907B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399FE856234D133E003907B9 /* ownCloudSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCA8922720F5F13E00AEFF98;
+			remoteInfo = ownCloudMocking;
+		};
+		399FE866234D133E003907B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399FE856234D133E003907B9 /* ownCloudSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCA8922F20F5F13F00AEFF98;
+			remoteInfo = ownCloudMockingTests;
+		};
+		399FE868234D133E003907B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399FE856234D133E003907B9 /* ownCloudSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC3094842057358800189B9A;
+			remoteInfo = ownCloudUI;
+		};
+		399FE86A234D133E003907B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399FE856234D133E003907B9 /* ownCloudSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC7E0A77203732B3006111FA;
+			remoteInfo = Ocean;
+		};
+		399FE86C234D1369003907B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399FE856234D133E003907B9 /* ownCloudSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC8F9AA202852A200EB6701;
+			remoteInfo = ownCloudSDK;
+		};
+		39DD5FA424ACC6FF0048ABF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399FE82B234D12B3003907B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DD5F9324ACC6FE0048ABF0;
+			remoteInfo = iOS;
+		};
+		39DD5FAF24ACC6FF0048ABF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399FE82B234D12B3003907B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DD5F9A24ACC6FF0048ABF0;
+			remoteInfo = macOS;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		399FE872234D1482003907B9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				399FE871234D1482003907B9 /* ownCloudSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		399FE833234D12B3003907B9 /* ownCloud Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ownCloud Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		399FE836234D12B3003907B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		399FE838234D12B3003907B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		399FE83A234D12B5003907B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		399FE83D234D12B5003907B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		398BCEFF24B322E400A52C83 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		398BCF0A24B34AF700A52C83 /* AccountSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettings.swift; sourceTree = "<group>"; };
+		398BCF0E24B34C9600A52C83 /* MediaGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaGridView.swift; sourceTree = "<group>"; };
+		398BCF1224B34CFC00A52C83 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		399FE833234D12B3003907B9 /* tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		399FE840234D12B5003907B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		399FE842234D12B5003907B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		399FE847234D12B5003907B9 /* ownCloud MediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ownCloud MediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		399FE84B234D12B5003907B9 /* ownCloud_MediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ownCloud_MediaUITests.swift; sourceTree = "<group>"; };
 		399FE84D234D12B5003907B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399FE856234D133E003907B9 /* ownCloudSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ownCloudSDK.xcodeproj; path = "ios-sdk/ownCloudSDK.xcodeproj"; sourceTree = "<group>"; };
+		399FE87A234D155B003907B9 /* SDKTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKTest.h; sourceTree = "<group>"; };
+		399FE87B234D155B003907B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DD5F8B24ACC6B30048ABF0 /* ownCloud Media copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ownCloud Media copy-Info.plist"; path = "/Users/matthias/Code/media/ownCloud Media/ownCloud Media copy-Info.plist"; sourceTree = "<absolute>"; };
+		39DD5F8D24ACC6FD0048ABF0 /* ownCloud_Media_UniversalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ownCloud_Media_UniversalApp.swift; sourceTree = "<group>"; };
+		39DD5F8E24ACC6FD0048ABF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39DD5F8F24ACC6FE0048ABF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39DD5F9424ACC6FE0048ABF0 /* ownCloud Media Universal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ownCloud Media Universal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DD5F9624ACC6FE0048ABF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DD5F9B24ACC6FF0048ABF0 /* ownCloud Media Universal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ownCloud Media Universal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DD5F9D24ACC6FF0048ABF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DD5F9E24ACC6FF0048ABF0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		39DD5FA324ACC6FF0048ABF0 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DD5FA724ACC6FF0048ABF0 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		39DD5FA924ACC6FF0048ABF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DD5FAE24ACC6FF0048ABF0 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DD5FB224ACC6FF0048ABF0 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		39DD5FB424ACC6FF0048ABF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399FE870234D1482003907B9 /* ownCloudSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,46 +172,95 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39DD5F9124ACC6FE0048ABF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398BCF0824B3334A00A52C83 /* ownCloudSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DD5F9824ACC6FF0048ABF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398BCF0924B3334E00A52C83 /* ownCloudSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DD5FA024ACC6FF0048ABF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DD5FAB24ACC6FF0048ABF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		398BCF1624B34D5B00A52C83 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				398BCF0A24B34AF700A52C83 /* AccountSettings.swift */,
+				398BCF1224B34CFC00A52C83 /* AccountView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		398BCF1724B34D7500A52C83 /* MediaView */ = {
+			isa = PBXGroup;
+			children = (
+				398BCEFF24B322E400A52C83 /* ImageDetailView.swift */,
+				398BCF0E24B34C9600A52C83 /* MediaGridView.swift */,
+			);
+			path = MediaView;
+			sourceTree = "<group>";
+		};
 		399FE82A234D12B3003907B9 = {
 			isa = PBXGroup;
 			children = (
-				399FE835234D12B3003907B9 /* ownCloud Media */,
+				399FE856234D133E003907B9 /* ownCloudSDK.xcodeproj */,
+				39DD5F8C24ACC6FD0048ABF0 /* Shared */,
+				399FE835234D12B3003907B9 /* tvOS */,
+				39DD5F9524ACC6FE0048ABF0 /* iOS */,
+				39DD5F9C24ACC6FF0048ABF0 /* macOS */,
 				399FE84A234D12B5003907B9 /* ownCloud MediaUITests */,
+				399FE879234D155B003907B9 /* SDKTest */,
+				39DD5FA624ACC6FF0048ABF0 /* Tests iOS */,
+				39DD5FB124ACC6FF0048ABF0 /* Tests macOS */,
 				399FE834234D12B3003907B9 /* Products */,
+				399FE86E234D1381003907B9 /* Frameworks */,
+				39DD5F8B24ACC6B30048ABF0 /* ownCloud Media copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		399FE834234D12B3003907B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				399FE833234D12B3003907B9 /* ownCloud Media.app */,
+				399FE833234D12B3003907B9 /* tvOS.app */,
 				399FE847234D12B5003907B9 /* ownCloud MediaUITests.xctest */,
+				39DD5F9424ACC6FE0048ABF0 /* ownCloud Media Universal.app */,
+				39DD5F9B24ACC6FF0048ABF0 /* ownCloud Media Universal.app */,
+				39DD5FA324ACC6FF0048ABF0 /* Tests iOS.xctest */,
+				39DD5FAE24ACC6FF0048ABF0 /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		399FE835234D12B3003907B9 /* ownCloud Media */ = {
+		399FE835234D12B3003907B9 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				399FE836234D12B3003907B9 /* AppDelegate.swift */,
-				399FE838234D12B3003907B9 /* ContentView.swift */,
-				399FE83A234D12B5003907B9 /* Assets.xcassets */,
 				399FE83F234D12B5003907B9 /* LaunchScreen.storyboard */,
 				399FE842234D12B5003907B9 /* Info.plist */,
-				399FE83C234D12B5003907B9 /* Preview Content */,
 			);
-			path = "ownCloud Media";
-			sourceTree = "<group>";
-		};
-		399FE83C234D12B5003907B9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				399FE83D234D12B5003907B9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = tvOS;
 			sourceTree = "<group>";
 		};
 		399FE84A234D12B5003907B9 /* ownCloud MediaUITests */ = {
@@ -104,24 +272,102 @@
 			path = "ownCloud MediaUITests";
 			sourceTree = "<group>";
 		};
+		399FE857234D133E003907B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				399FE861234D133E003907B9 /* ownCloudSDK.framework */,
+				399FE863234D133E003907B9 /* ownCloudSDKTests.xctest */,
+				399FE865234D133E003907B9 /* ownCloudMocking.framework */,
+				399FE867234D133E003907B9 /* ownCloudMockingTests.xctest */,
+				399FE869234D133E003907B9 /* ownCloudUI.framework */,
+				399FE86B234D133E003907B9 /* Ocean.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		399FE86E234D1381003907B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		399FE879234D155B003907B9 /* SDKTest */ = {
+			isa = PBXGroup;
+			children = (
+				399FE87A234D155B003907B9 /* SDKTest.h */,
+				399FE87B234D155B003907B9 /* Info.plist */,
+			);
+			path = SDKTest;
+			sourceTree = "<group>";
+		};
+		39DD5F8C24ACC6FD0048ABF0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				398BCF1724B34D7500A52C83 /* MediaView */,
+				398BCF1624B34D5B00A52C83 /* Settings */,
+				39DD5F8D24ACC6FD0048ABF0 /* ownCloud_Media_UniversalApp.swift */,
+				39DD5F8E24ACC6FD0048ABF0 /* ContentView.swift */,
+				39DD5F8F24ACC6FE0048ABF0 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		39DD5F9524ACC6FE0048ABF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				39DD5F9624ACC6FE0048ABF0 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		39DD5F9C24ACC6FF0048ABF0 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				39DD5F9D24ACC6FF0048ABF0 /* Info.plist */,
+				39DD5F9E24ACC6FF0048ABF0 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		39DD5FA624ACC6FF0048ABF0 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				39DD5FA724ACC6FF0048ABF0 /* Tests_iOS.swift */,
+				39DD5FA924ACC6FF0048ABF0 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		39DD5FB124ACC6FF0048ABF0 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				39DD5FB224ACC6FF0048ABF0 /* Tests_macOS.swift */,
+				39DD5FB424ACC6FF0048ABF0 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		399FE832234D12B3003907B9 /* ownCloud Media */ = {
+		399FE832234D12B3003907B9 /* tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 399FE850234D12B5003907B9 /* Build configuration list for PBXNativeTarget "ownCloud Media" */;
+			buildConfigurationList = 399FE850234D12B5003907B9 /* Build configuration list for PBXNativeTarget "tvOS" */;
 			buildPhases = (
 				399FE82F234D12B3003907B9 /* Sources */,
 				399FE830234D12B3003907B9 /* Frameworks */,
 				399FE831234D12B3003907B9 /* Resources */,
+				399FE872234D1482003907B9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				399FE86D234D1369003907B9 /* PBXTargetDependency */,
 			);
-			name = "ownCloud Media";
+			name = tvOS;
 			productName = "ownCloud Media";
-			productReference = 399FE833234D12B3003907B9 /* ownCloud Media.app */;
+			productReference = 399FE833234D12B3003907B9 /* tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		399FE846234D12B5003907B9 /* ownCloud MediaUITests */ = {
@@ -142,13 +388,83 @@
 			productReference = 399FE847234D12B5003907B9 /* ownCloud MediaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		39DD5F9324ACC6FE0048ABF0 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DD5FBB24ACC6FF0048ABF0 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				39DD5F9024ACC6FE0048ABF0 /* Sources */,
+				39DD5F9124ACC6FE0048ABF0 /* Frameworks */,
+				39DD5F9224ACC6FE0048ABF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = 39DD5F9424ACC6FE0048ABF0 /* ownCloud Media Universal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39DD5F9A24ACC6FF0048ABF0 /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DD5FBE24ACC6FF0048ABF0 /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildPhases = (
+				39DD5F9724ACC6FF0048ABF0 /* Sources */,
+				39DD5F9824ACC6FF0048ABF0 /* Frameworks */,
+				39DD5F9924ACC6FF0048ABF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS;
+			productName = macOS;
+			productReference = 39DD5F9B24ACC6FF0048ABF0 /* ownCloud Media Universal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39DD5FA224ACC6FF0048ABF0 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DD5FC124ACC6FF0048ABF0 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				39DD5F9F24ACC6FF0048ABF0 /* Sources */,
+				39DD5FA024ACC6FF0048ABF0 /* Frameworks */,
+				39DD5FA124ACC6FF0048ABF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DD5FA524ACC6FF0048ABF0 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 39DD5FA324ACC6FF0048ABF0 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		39DD5FAD24ACC6FF0048ABF0 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DD5FC424ACC6FF0048ABF0 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				39DD5FAA24ACC6FF0048ABF0 /* Sources */,
+				39DD5FAB24ACC6FF0048ABF0 /* Frameworks */,
+				39DD5FAC24ACC6FF0048ABF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DD5FB024ACC6FF0048ABF0 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 39DD5FAE24ACC6FF0048ABF0 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		399FE82B234D12B3003907B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Matthias Hühne";
 				TargetAttributes = {
@@ -158,6 +474,20 @@
 					399FE846234D12B5003907B9 = {
 						CreatedOnToolsVersion = 11.0;
 						TestTargetID = 399FE832234D12B3003907B9;
+					};
+					39DD5F9324ACC6FE0048ABF0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					39DD5F9A24ACC6FF0048ABF0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					39DD5FA224ACC6FF0048ABF0 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 39DD5F9324ACC6FE0048ABF0;
+					};
+					39DD5FAD24ACC6FF0048ABF0 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 39DD5F9A24ACC6FF0048ABF0;
 					};
 				};
 			};
@@ -172,26 +502,110 @@
 			mainGroup = 399FE82A234D12B3003907B9;
 			productRefGroup = 399FE834234D12B3003907B9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 399FE857234D133E003907B9 /* Products */;
+					ProjectRef = 399FE856234D133E003907B9 /* ownCloudSDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				399FE832234D12B3003907B9 /* ownCloud Media */,
+				399FE832234D12B3003907B9 /* tvOS */,
+				39DD5F9324ACC6FE0048ABF0 /* iOS */,
+				39DD5F9A24ACC6FF0048ABF0 /* macOS */,
 				399FE846234D12B5003907B9 /* ownCloud MediaUITests */,
+				39DD5FA224ACC6FF0048ABF0 /* Tests iOS */,
+				39DD5FAD24ACC6FF0048ABF0 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		399FE861234D133E003907B9 /* ownCloudSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ownCloudSDK.framework;
+			remoteRef = 399FE860234D133E003907B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		399FE863234D133E003907B9 /* ownCloudSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ownCloudSDKTests.xctest;
+			remoteRef = 399FE862234D133E003907B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		399FE865234D133E003907B9 /* ownCloudMocking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ownCloudMocking.framework;
+			remoteRef = 399FE864234D133E003907B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		399FE867234D133E003907B9 /* ownCloudMockingTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ownCloudMockingTests.xctest;
+			remoteRef = 399FE866234D133E003907B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		399FE869234D133E003907B9 /* ownCloudUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ownCloudUI.framework;
+			remoteRef = 399FE868234D133E003907B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		399FE86B234D133E003907B9 /* Ocean.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Ocean.app;
+			remoteRef = 399FE86A234D133E003907B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		399FE831234D12B3003907B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3912BE1724ACD10100ED1ED0 /* Assets.xcassets in Resources */,
 				399FE841234D12B5003907B9 /* LaunchScreen.storyboard in Resources */,
-				399FE83E234D12B5003907B9 /* Preview Assets.xcassets in Resources */,
-				399FE83B234D12B5003907B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		399FE845234D12B5003907B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DD5F9224ACC6FE0048ABF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DD5FB924ACC6FF0048ABF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DD5F9924ACC6FF0048ABF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DD5FBA24ACC6FF0048ABF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DD5FA124ACC6FF0048ABF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DD5FAC24ACC6FF0048ABF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,8 +619,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				399FE839234D12B3003907B9 /* ContentView.swift in Sources */,
-				399FE837234D12B3003907B9 /* AppDelegate.swift in Sources */,
+				398BCF1324B34CFC00A52C83 /* AccountView.swift in Sources */,
+				39DD5FC724ACC82D0048ABF0 /* ownCloud_Media_UniversalApp.swift in Sources */,
+				39DD5FC824ACC82D0048ABF0 /* ContentView.swift in Sources */,
+				398BCF0B24B34AF800A52C83 /* AccountSettings.swift in Sources */,
+				398BCF0F24B34C9600A52C83 /* MediaGridView.swift in Sources */,
+				398BCF0024B322E400A52C83 /* ImageDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,13 +636,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39DD5F9024ACC6FE0048ABF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398BCF1424B34CFC00A52C83 /* AccountView.swift in Sources */,
+				39DD5FB724ACC6FF0048ABF0 /* ContentView.swift in Sources */,
+				39DD5FB524ACC6FF0048ABF0 /* ownCloud_Media_UniversalApp.swift in Sources */,
+				398BCF0C24B34AF800A52C83 /* AccountSettings.swift in Sources */,
+				398BCF1024B34C9600A52C83 /* MediaGridView.swift in Sources */,
+				398BCF0124B322E400A52C83 /* ImageDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DD5F9724ACC6FF0048ABF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398BCF1524B34CFC00A52C83 /* AccountView.swift in Sources */,
+				39DD5FB824ACC6FF0048ABF0 /* ContentView.swift in Sources */,
+				39DD5FB624ACC6FF0048ABF0 /* ownCloud_Media_UniversalApp.swift in Sources */,
+				398BCF0D24B34AF800A52C83 /* AccountSettings.swift in Sources */,
+				398BCF1124B34C9600A52C83 /* MediaGridView.swift in Sources */,
+				398BCF0224B322E400A52C83 /* ImageDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DD5F9F24ACC6FF0048ABF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DD5FA824ACC6FF0048ABF0 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DD5FAA24ACC6FF0048ABF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DD5FB324ACC6FF0048ABF0 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		399FE849234D12B5003907B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 399FE832234D12B3003907B9 /* ownCloud Media */;
+			target = 399FE832234D12B3003907B9 /* tvOS */;
 			targetProxy = 399FE848234D12B5003907B9 /* PBXContainerItemProxy */;
+		};
+		399FE86D234D1369003907B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ownCloudSDK;
+			targetProxy = 399FE86C234D1369003907B9 /* PBXContainerItemProxy */;
+		};
+		39DD5FA524ACC6FF0048ABF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DD5F9324ACC6FE0048ABF0 /* iOS */;
+			targetProxy = 39DD5FA424ACC6FF0048ABF0 /* PBXContainerItemProxy */;
+		};
+		39DD5FB024ACC6FF0048ABF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DD5F9A24ACC6FF0048ABF0 /* macOS */;
+			targetProxy = 39DD5FAF24ACC6FF0048ABF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -357,40 +832,40 @@
 		399FE851234D12B5003907B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ownCloud Media/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4AP2STM4H5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "ownCloud Media/Info.plist";
+				INFOPLIST_FILE = tvOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.owncloud.ownCloud-Media";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owncloud.media-universal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Debug;
 		};
 		399FE852234D12B5003907B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ownCloud Media/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4AP2STM4H5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "ownCloud Media/Info.plist";
+				INFOPLIST_FILE = tvOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.owncloud.ownCloud-Media";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owncloud.media-universal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Release;
 		};
@@ -434,6 +909,195 @@
 			};
 			name = Release;
 		};
+		39DD5FBC24ACC6FF0048ABF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AP2STM4H5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owncloud.media-universal";
+				PRODUCT_NAME = "ownCloud Media Universal";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39DD5FBD24ACC6FF0048ABF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AP2STM4H5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owncloud.media-universal";
+				PRODUCT_NAME = "ownCloud Media Universal";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39DD5FBF24ACC6FF0048ABF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4AP2STM4H5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owncloud.media-universal";
+				PRODUCT_NAME = "ownCloud Media Universal";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		39DD5FC024ACC6FF0048ABF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4AP2STM4H5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owncloud.media-universal";
+				PRODUCT_NAME = "ownCloud Media Universal";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		39DD5FC224ACC6FF0048ABF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AP2STM4H5;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ownCloud.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS;
+			};
+			name = Debug;
+		};
+		39DD5FC324ACC6FF0048ABF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AP2STM4H5;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ownCloud.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS;
+			};
+			name = Release;
+		};
+		39DD5FC524ACC6FF0048ABF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4AP2STM4H5;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ownCloud.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = macOS;
+			};
+			name = Debug;
+		};
+		39DD5FC624ACC6FF0048ABF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4AP2STM4H5;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ownCloud.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = macOS;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -446,7 +1110,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		399FE850234D12B5003907B9 /* Build configuration list for PBXNativeTarget "ownCloud Media" */ = {
+		399FE850234D12B5003907B9 /* Build configuration list for PBXNativeTarget "tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				399FE851234D12B5003907B9 /* Debug */,
@@ -460,6 +1124,42 @@
 			buildConfigurations = (
 				399FE854234D12B5003907B9 /* Debug */,
 				399FE855234D12B5003907B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DD5FBB24ACC6FF0048ABF0 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DD5FBC24ACC6FF0048ABF0 /* Debug */,
+				39DD5FBD24ACC6FF0048ABF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DD5FBE24ACC6FF0048ABF0 /* Build configuration list for PBXNativeTarget "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DD5FBF24ACC6FF0048ABF0 /* Debug */,
+				39DD5FC024ACC6FF0048ABF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DD5FC124ACC6FF0048ABF0 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DD5FC224ACC6FF0048ABF0 /* Debug */,
+				39DD5FC324ACC6FF0048ABF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DD5FC424ACC6FF0048ABF0 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DD5FC524ACC6FF0048ABF0 /* Debug */,
+				39DD5FC624ACC6FF0048ABF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

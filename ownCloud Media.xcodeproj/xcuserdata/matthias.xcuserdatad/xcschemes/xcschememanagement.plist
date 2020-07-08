@@ -4,10 +4,73 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SDKTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>macOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>ownCloud Media Mac.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>ownCloud Media copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>ownCloud Media.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
+		</dict>
+		<key>tvOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>399FE832234D12B3003907B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>399FE846234D12B5003907B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39DD5F9324ACC6FE0048ABF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39DD5F9A24ACC6FF0048ABF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39DD5FA224ACC6FF0048ABF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39DD5FAD24ACC6FF0048ABF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
