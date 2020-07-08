@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3912BE1724ACD10100ED1ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DD5F8F24ACC6FE0048ABF0 /* Assets.xcassets */; };
+		392D35E224B5C7F500478DAA /* DispatchQueueTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392D35E124B5C7F500478DAA /* DispatchQueueTools.swift */; };
+		392D35E324B5C7F500478DAA /* DispatchQueueTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392D35E124B5C7F500478DAA /* DispatchQueueTools.swift */; };
+		392D35E424B5C7F500478DAA /* DispatchQueueTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392D35E124B5C7F500478DAA /* DispatchQueueTools.swift */; };
 		398BCF0024B322E400A52C83 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCEFF24B322E400A52C83 /* ImageDetailView.swift */; };
 		398BCF0124B322E400A52C83 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCEFF24B322E400A52C83 /* ImageDetailView.swift */; };
 		398BCF0224B322E400A52C83 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BCEFF24B322E400A52C83 /* ImageDetailView.swift */; };
@@ -126,6 +129,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		392D35E124B5C7F500478DAA /* DispatchQueueTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueTools.swift; sourceTree = "<group>"; };
 		398BCEFF24B322E400A52C83 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
 		398BCF0A24B34AF700A52C83 /* AccountSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettings.swift; sourceTree = "<group>"; };
 		398BCF0E24B34C9600A52C83 /* MediaGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaGridView.swift; sourceTree = "<group>"; };
@@ -139,7 +143,6 @@
 		399FE856234D133E003907B9 /* ownCloudSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ownCloudSDK.xcodeproj; path = "ios-sdk/ownCloudSDK.xcodeproj"; sourceTree = "<group>"; };
 		399FE87A234D155B003907B9 /* SDKTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKTest.h; sourceTree = "<group>"; };
 		399FE87B234D155B003907B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39DD5F8B24ACC6B30048ABF0 /* ownCloud Media copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ownCloud Media copy-Info.plist"; path = "/Users/matthias/Code/media/ownCloud Media/ownCloud Media copy-Info.plist"; sourceTree = "<absolute>"; };
 		39DD5F8D24ACC6FD0048ABF0 /* ownCloud_Media_UniversalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ownCloud_Media_UniversalApp.swift; sourceTree = "<group>"; };
 		39DD5F8E24ACC6FD0048ABF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39DD5F8F24ACC6FE0048ABF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -205,6 +208,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		392D35E024B5C7F500478DAA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				392D35E124B5C7F500478DAA /* DispatchQueueTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		398BCF1624B34D5B00A52C83 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,7 +248,6 @@
 				39DD5FB124ACC6FF0048ABF0 /* Tests macOS */,
 				399FE834234D12B3003907B9 /* Products */,
 				399FE86E234D1381003907B9 /* Frameworks */,
-				39DD5F8B24ACC6B30048ABF0 /* ownCloud Media copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -304,6 +314,7 @@
 		39DD5F8C24ACC6FD0048ABF0 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				392D35E024B5C7F500478DAA /* Tools */,
 				398BCF1724B34D7500A52C83 /* MediaView */,
 				398BCF1624B34D5B00A52C83 /* Settings */,
 				39DD5F8D24ACC6FD0048ABF0 /* ownCloud_Media_UniversalApp.swift */,
@@ -625,6 +636,7 @@
 				398BCF0B24B34AF800A52C83 /* AccountSettings.swift in Sources */,
 				398BCF0F24B34C9600A52C83 /* MediaGridView.swift in Sources */,
 				398BCF0024B322E400A52C83 /* ImageDetailView.swift in Sources */,
+				392D35E224B5C7F500478DAA /* DispatchQueueTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +658,7 @@
 				398BCF0C24B34AF800A52C83 /* AccountSettings.swift in Sources */,
 				398BCF1024B34C9600A52C83 /* MediaGridView.swift in Sources */,
 				398BCF0124B322E400A52C83 /* ImageDetailView.swift in Sources */,
+				392D35E324B5C7F500478DAA /* DispatchQueueTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +672,7 @@
 				398BCF0D24B34AF800A52C83 /* AccountSettings.swift in Sources */,
 				398BCF1124B34C9600A52C83 /* MediaGridView.swift in Sources */,
 				398BCF0224B322E400A52C83 /* ImageDetailView.swift in Sources */,
+				392D35E424B5C7F500478DAA /* DispatchQueueTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

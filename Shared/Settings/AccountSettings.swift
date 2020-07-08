@@ -46,22 +46,8 @@ struct AccountSettingsView : View {
 
 				Button(
 					action: {
-						/*
-						let bookmark = OCBookmark();
-						bookmark.url = URL(string: "https://demo.owncloud.com")
-						let connection = OCConnection(bookmark: bookmark)
-						print("Contacting server…")
-						connection.prepareForSetup(options: nil) { (issue, _, _, preferredAuthenticationMethods) in
-
-						}*/
-
 						let hudCompletion: (((() -> Void)?) -> Void) = { (completion) in
-				OnMainThread {
-					print("hud completion")
-				}
-			}
-
-							//handleContinueURLProbe(hudCompletion: hudCompletion)
+						}
 						handleContinueAuthentication(hudCompletion: hudCompletion)
 					},
 					label: {
@@ -71,8 +57,6 @@ struct AccountSettingsView : View {
 			}
 		}.navigationTitle("Account Settings")
 	}
-
-
 
 	func handleContinueAuthentication(hudCompletion: @escaping (((() -> Void)?) -> Void)) {
 
@@ -84,7 +68,6 @@ struct AccountSettingsView : View {
 			bookmark?.url = serverURL
 		}
 		bookmark?.authenticationMethodIdentifier = .basicAuth
-
 
 		if let connectionBookmark = bookmark {
 			var options : [OCAuthenticationMethodKey : Any] = [:]
@@ -98,10 +81,7 @@ struct AccountSettingsView : View {
 				}
 			}
 
-			print("--> \(options)")
-
 			options[.presentingViewControllerKey] = self
-
 
 			guard let bookmarkAuthenticationMethodIdentifier = bookmark?.authenticationMethodIdentifier else { return }
 
@@ -116,70 +96,6 @@ struct AccountSettingsView : View {
 			}
 		}
 	}
-
-func handleContinueURLProbe(hudCompletion: @escaping (((() -> Void)?) -> Void)) {
-
-		   var username : NSString?, password: NSString?
-		   var protocolWasPrepended : ObjCBool = false
-
-
-		print("handleContinueURLProbe")
-		   // Normalize URL
-		   if let serverURL = NSURL(username: &username, password: &password, afterNormalizingURLString: serverurl, protocolWasPrepended: &protocolWasPrepended) as URL? {
-
-			print(serverURL)
-			   // Check for zero-length host name
-			   if (serverURL.host == nil) || ((serverURL.host != nil) && (serverURL.host?.count==0)) {
-				   // Missing hostname
-				   /*let alertController = UIAlertController(title: "Missing hostname", message: "The entered URL does not include a hostname.", preferredStyle: .alert)
-
-				   alertController.addAction(UIAlertAction(title: "OK".localized, style: .default, handler: nil))
-
-				   self.present(alertController, animated: true, completion: nil)
-*/
-				   return
-			   }
-			print("--> probe url")
-			   // Probe URL
-			   bookmark?.url = serverURL
-
-			   if let connectionBookmark = bookmark {
-				   let connection = OCConnection(bookmark: connectionBookmark)
-				   let previousCertificate = bookmark?.certificate
-
-			 print("--> prepareForSetup")
-
-				   connection.prepareForSetup(options: nil) { (issue, _, _, preferredAuthenticationMethods) in
-					   hudCompletion({
-						print("--> prepareForSetup finishe")
-
-						   let continueToNextStep : () -> Void = {
-							   self.bookmark?.authenticationMethodIdentifier = preferredAuthenticationMethods?.first
-							  /* self?.composeSectionsAndRows(animated: true) {
-								   self?.updateInputFocus()
-							   }
-*/
-							   if self.bookmark?.certificate == previousCertificate,
-								  let authMethodIdentifier = self.bookmark?.authenticationMethodIdentifier,
-								  OCAuthenticationMethod.isAuthenticationMethodTokenBased(authMethodIdentifier as OCAuthenticationMethodIdentifier) == true {
-
-								  // self?.handleContinue()
-							   }
-						   }
-
-						print("--> \(issue)")
-						   if issue != nil {
-						   } else {
-							   continueToNextStep()
-						   }
-					   })
-				   }
-			   }
-	   }
-   }
-	
-
-
 }
 
 public extension OCAuthenticationMethod {
@@ -201,35 +117,3 @@ public extension OCAuthenticationMethod {
 	}
 
 }
-
-func OnMainThread(async: Bool = true, after: TimeInterval? = nil, inline: Bool = false, _ block: @escaping () -> Void) {
-	if inline {
-		if Thread.isMainThread {
-			block()
-			return
-		}
-	}
-
-	if let after = after {
-		DispatchQueue.main.asyncAfter(deadline: .now() + after, execute: block)
-	} else {
-		if async {
-			DispatchQueue.main.async(execute: block)
-		} else {
-			DispatchQueue.main.sync(execute: block)
-		}
-	}
-}
-
-func OnBackgroundQueue(async: Bool = true, after: TimeInterval? = nil, _ block: @escaping () -> Void) {
-	if let after = after {
-		DispatchQueue.global(qos: .background).asyncAfter(deadline: .now() + after, execute: block)
-	} else {
-		if async {
-			DispatchQueue.global(qos: .background).async(execute: block)
-		} else {
-			DispatchQueue.global(qos: .background).sync(execute: block)
-		}
-	}
-}
-
